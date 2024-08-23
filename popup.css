@@ -1,0 +1,112 @@
+
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    display: none;
+}
+.pop-contain {
+    width: 80%;
+    height: 65vh;
+    position: absolute;
+}
+.popup {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    z-index: 20;
+    display: none;
+    background-color: #189ab4;
+    width: 850px;
+}
+.pop-row {
+    display: flex;
+}
+.pop-col {
+
+}
+.pop-content {
+    
+}
+.left-img {
+
+    /* width: 40%;
+    float: left; */
+}
+.left-img img {
+    width: 335px;
+    height: 75vh;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.pop-lo {
+    display: flex;
+}
+.pop-lo img {
+    max-width: 100px;
+    height: 100px;
+}
+.pop-content h2 {
+    font-size: 30px;
+    color: #efa710;
+}
+.pop-content h6 {
+    font-size: 12px;
+    text-align: center;
+    margin: -23px -17px 14px 0px;
+}
+.pop-content form {
+    margin: 45px 46px;
+}
+.form-group {
+   
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+.form-group input, select {
+    width: 500%;
+    padding: 10px;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+    font-size: 10px;
+    background: transparent;
+}
+.signup-btn {
+    width: 130px;
+    padding: 10px;
+    background-color: #efa710;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+.signup-btn:hover {
+    background-color: #efa;
+
+}
+.note {
+    margin-top: 37px;
+    font-size: 12px;
+    text-align: right;
+    color: #fff;
+}

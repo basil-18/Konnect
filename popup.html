@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roussos Job Alerts</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="backdrop" id="backdrop"></div>
+    <!-- popup form -->
+     <div class="pop-contain">
+        <div class="popup" id="popup">
+            <div class="pop-row">
+                <div class="pop-col">
+                    <div class="pop-content">
+                        <div class="left-img">
+                            <img src="img\pop-le.jpg" alt="left-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="pop-col">
+                    <div class="pop-content">
+                        <button class="close-btn" id="closePopup">&times;</button>
+                        <div class="pop-lo">
+                            <img src="sa\KR.3-logo.png" alt="pop-logo">
+                            <h2>KONNECT RECURITMENT</h2>
+                        </div>
+                        <h6>STAY CONNECTED WITH the LATEST JOB UPDATES</h6>
+                        <form>
+                            <div class="form-group">
+                                <label for="firstName">* FIRST NAME</label>
+                            <input type="text" id="firstName" placeholder="Enter your first name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">* LAST NAME</label>
+                            <input type="text" id="lastName" placeholder="Enter your last name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">* EMAIL ADDRESS</label>
+                            <input type="email" id="email" placeholder="Enter your email address" required>
+                            </div>
+                            <div class="form-group"><label for="industry">* INDUSTRY</label>
+                                <select id="industry" required>
+                                    <option value="All">All</option>
+                                    <option value="IT">IT</option>
+                                    <option value="Engineering">Engineering</option>
+                                    <!-- Add more options as needed -->
+                                </select>
+                            </div>
+
+                        </form>
+                        <button type="submit" class="signup-btn">SIGN UP</button>
+                        <br>
+                        <p class="note">Note: The above fields which have a star are required fields.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <script src="popup.js"></script>
+</body>
+</html>
